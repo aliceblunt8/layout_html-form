@@ -6,10 +6,6 @@ div:first-of-type {
   margin: 0;
 }
 
-.question {
-  display: inline;
-}
-
 .info-block {
-  margin: 0 0 20px;
+  margin-bottom: 20px;
 }
