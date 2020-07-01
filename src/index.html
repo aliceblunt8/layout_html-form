@@ -11,7 +11,7 @@
     <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="get"
-    >
+      >
       <fieldset class="info-block">
         <legend>Personal information</legend>
         <div>
@@ -21,7 +21,8 @@
             type="text"
             id="lname"
             name="lname"
-            autocomplete="off">
+            autocomplete="off"
+          >
         </div>
         <div>
           <label for="fname">Name:</label>
@@ -30,7 +31,8 @@
             type="text"
             id="fname"
             name="fname"
-            autocomplete="off">
+            autocomplete="off"
+          >
         </div>
         <div>
           <label for="age">How old are You?</label>
@@ -42,7 +44,8 @@
             autocomplete="off"
             value="12"
             min="12"
-            max="100">
+            max="100"
+          >
         </div>
         <div>
           <label for="birthdate">Full date of birth:</label>
@@ -50,7 +53,8 @@
             class="form-input"
             type="date"
             id="birthdate"
-            name="birthdate">
+            name="birthdate"
+          >
         </div>
         <div>
           <label for="agree">I accept the term of the agreement</label>
@@ -58,7 +62,8 @@
             class="form-input"
             type="checkbox"
             id="agree"
-            name="agree">
+            name="agree"
+          >
         </div>
       </fieldset>
       <fieldset class="info-block">
@@ -71,7 +76,8 @@
             id="email"
             name="email"
             placeholder="email@example.com"
-            multiple>
+            multiple
+          >
         </div>
         <div>
           <label for="password">Password:</label>
@@ -82,24 +88,27 @@
             name="password"
             required
             minlength="12"
-            maxlength="20">
+            maxlength="20"
+          >
         </div>
       </fieldset>
       <fieldset class="info-block">
         <legend>An interesting fact about you!</legend>
         <div>
-          <p class="question">Do you love cats?</p>
+          <span>Do you love cats?</span>
           <input
             class="form-input"
             type="radio"
             id="yes"
-            name="cats">
+            name="cats"
+          >
           <label for="yes">Yes</label>
           <input
             class="form-input radio-btn"
             type="radio"
             id="no"
-            name="cats">
+            name="cats"
+          >
           <label for="no">No</label>
         </div>
         <div>
@@ -108,7 +117,8 @@
             class="form-input"
             type="color"
             id="color"
-            name="color">
+            name="color"
+          >
         </div>
         <div>
           <label for="bedtime">What time do you go to bed?</label>
@@ -117,7 +127,8 @@
             type="time"
             id="bedtime"
             name="bedtime"
-            step="2">
+            step="2"
+          >
         </div>
         <div>
           <label for="cars">What are your favorite brand of cars?</label>
@@ -125,19 +136,22 @@
             class="form-select"
             name="cars"
             id="cars"
-            multiple>
+            multiple
+          >
             <option value="bmw">BMW</option>
             <option value="audi">Audi</option>
             <option value="lada">Lada</option>
           </select>
         </div>
         <div>
-          <label for="rate">How do you rate our work?</label>
+          <label for="rate-work">How do you rate our work?</label>
           <input
             class="form-input"
             type="range"
-            id="rate"
-            name="rate">
+            id="rate-work"
+            name="rate-work"
+            value="0"
+          >
         </div>
       </fieldset>
       <fieldset class="info-block">
@@ -149,7 +163,8 @@
             name="comments"
             id="comments"
             cols="20"
-            rows="2">
+            rows="2"
+          >
           </textarea>
         </div>
         <div>
@@ -157,7 +172,8 @@
           <select
             class="form-select"
             name="recommendation"
-            id="recommendation">
+            id="recommendation"
+          >
             <option value="yes">yes</option>
             <option value="no">no</option>
           </select>
@@ -167,7 +183,8 @@
         class="form-input"
         type="submit"
         onsubmit="onSubmit()"
-        value="Submit">
+        value="Submit"
+      >
     </form>
     <script type="text/javascript" src="./main.js"></script>
   </body>
