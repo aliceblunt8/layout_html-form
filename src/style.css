@@ -1,13 +1,8 @@
-/* body {
-  margin: 0;
-} */
-
 div {
   margin: 10px 0 0;
 }
 
-div:first-of-type,
-.radio-btn {
+div:first-of-type {
   margin: 0;
 }
 
