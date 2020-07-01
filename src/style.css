@@ -1,0 +1,20 @@
+/* body {
+  margin: 0;
+} */
+
+div {
+  margin: 10px 0 0;
+}
+
+div:first-of-type,
+.radio-btn {
+  margin: 0;
+}
+
+.question {
+  display: inline;
+}
+
+.info-block {
+  margin: 0 0 20px;
+}
